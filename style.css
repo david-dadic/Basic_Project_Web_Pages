@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: url(flag\ background.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+
+#parent{
+    position:relative;
+    top: 69px;
+    left: 30%;
+    width: 400px;
+    height: 400px;
+}
+
+#box{
+    position: relative;
+    top: 50px;
+    left: 28.2%;
+    width: 9px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#col1{
+    position: absolute;
+    top: 50px;
+    left: 30.5%;
+    width: 250px;
+    height: 50px;
+    background-color: #FF9933;
+}
+#col2{
+    position: absolute;
+    top: 100px;
+    left: 30.5%;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+}
+#col3{
+    position: absolute;
+    top: 150px;
+    left: 30.5%;
+    width: 250px;
+    height: 50px;
+    background-color: green;
+}
+
+#circle{
+    position: absolute;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    background-image: url(https://imgs.search.brave.com/9zpXNy80ajp1bPti-V0fzGxT-vkIL7PrCXHlCF373-s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/cG5nLXZlY3Rvci8y/MDI1MTAyNi9vdXJt/aWQvcG5ndHJlZS1h/LTNkLXJlbmRlcmlu/Zy1vZi10aGUtYXNo/b2thLWNoYWtyYS1z/eW1ib2wtZGhhcm1h/LWluLXZpYnJhbnQt/cG5nLWltYWdlXzE3/ODMyODI4LndlYnA);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+audio{
+    position: relative;
+    left: 30%;
+    top: 69px;
+}
